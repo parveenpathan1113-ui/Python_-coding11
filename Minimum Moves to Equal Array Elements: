@@ -1,0 +1,4 @@
+def minMoves(nums):
+    min_val = min(nums)
+    total = sum(nums)
+    return total - len(nums) * min_val
